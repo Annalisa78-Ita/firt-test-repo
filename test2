@@ -1,0 +1,3 @@
+First, I upload this file, `test2.txt`, and then I move it into the `test` folder.
+Remember to save your changes by clicking "commit change."
+The system operates based on file paths; depending on your requirements, it is important to always include a "/" in the path whenever necessary.
