@@ -1,0 +1,64 @@
+GITHUB – Basic Operations Using the Browser
+1. Creating a New Folder
+
+GitHub does not allow you to create empty folders. To create a new folder:
+
+Open the repository (e.g., first-test-repo).
+Click Add file → Create new file.
+In the filename field, enter the complete path:
+
+test/placeholder.txt
+
+Enter any text in the file editor.
+Click Commit changes.
+The test folder will be created automatically, containing placeholder.txt.
+2. Uploading a File from Your Computer into a Folder
+Open the repository.
+Navigate to the destination folder (e.g., test).
+Click Add file → Upload files.
+Select the file from your computer or drag and drop it into the upload area.
+Enter a commit message (e.g., Upload test.txt).
+Click Commit changes.
+
+The file will be uploaded directly into the selected folder.
+
+3. Moving a File by Changing Its Path
+
+You can move an existing file by editing its path.
+
+Example: moving text2.txt from the repository's root directory into the test folder.
+
+Open text2.txt in the repository's root directory.
+Click the pencil icon (Edit this file).
+In the filename field, change the path:
+
+From: text2.txt
+
+To: test/text2.txt
+
+Click Commit changes.
+Confirm the commit.
+
+GitHub records the path change, and the file will appear inside the test folder.
+
+4. Important Concept: Commits
+
+A commit records a change made to the repository.
+
+A commit is required whenever you:
+
+Create a file.
+Upload a file.
+Edit a file.
+Move a file by changing its path.
+
+Tip: Always use short but descriptive commit messages, for example:
+
+Create test folder
+Upload test.txt
+Move text2.txt to test folder
+Update README
+
+A good commit message makes it easier to track the history of your repository.
+
+Note: When you change a file's path, GitHub records a repository change. Git may recognize it as a rename or move, but technically it is not a separate cut-and-paste operation.
